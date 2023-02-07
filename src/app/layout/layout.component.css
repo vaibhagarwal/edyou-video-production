@@ -1,0 +1,163 @@
+.r {
+    height: 350px;
+    width: 600px;
+}
+
+.backGround {
+
+    background-image: url(../../assets/background5.jpg);
+    /* background-position: center; */
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-size: 200px 100px; */
+    overflow-y: auto;
+}
+
+
+.imgTest {
+    /* background-color:#f4f6f4 ; */
+    background-image: url('../../assets/background3.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-size: 200px 100px; */
+    overflow-y: auto;
+  }
+
+  .card{
+    height: 350px;
+    width: 550px;
+  }
+
+
+.uneeqAvatar {
+ bottom :0px
+
+}
+
+.speaking-lady {
+    display: block;
+    border: 0px solid #fff;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    border-radius: 1px;
+}
+
+
+.fixed-mic {
+    position: fixed;
+    /* right: 80px;
+    z-index: 200; */
+}
+
+.fixedText {
+    position: relative;
+    left: 60px;
+    width: 500px;
+}
+
+video {
+    /* override other styles to make responsive */
+    width: 100% !important;
+    height: auto !important;
+}
+
+.showI {
+    display: none;
+}
+
+
+.full_screen {
+    margin-top: -78px;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+}
+
+.speakingsss {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url(../../assets/cancel.png);
+    right: 45px;
+    cursor: pointer;
+    position: fixed;
+    margin: 20px;
+    z-index: 600;
+}
+
+
+.play{
+    width: 500px;
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+    .fixed-mic{
+        margin-top: 400px;
+        margin-right: 100px;
+    }
+      }
+
+
+      @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+        .fixed-mic{
+            margin-top: 400px;
+            margin-right: 100px;
+        }
+    }
+
+
+
+    @media only screen and (max-device-width: 480px) {
+
+        /* .fixed-mic{
+         position: fixed;
+           
+    z-index: 200;
+            
+        } */
+
+           .fixed-mic{
+         position: fixed;
+        }
+
+
+        .card{
+          
+            height: 350px;
+            width: 350px;
+          }
+
+
+        .fixedText {
+            position: relative;
+            left: 20px;
+            width: 350px;
+        }
+
+        .yy{
+            overflow-y: auto !important;
+        }
+
+        .play{
+            width: 350px;
+        }
+
+        
+        .speaking-lady {
+            display: block;
+            border: 0px solid #fff;
+            box-shadow: 0px 0px 5px 0px #ccc;
+            background-color: white;
+            width: 350px;
+            height: 300px;
+            border-radius: 1px;
+        }
+
+
+    }

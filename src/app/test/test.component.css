@@ -1,0 +1,374 @@
+.r {
+    height: 350px;
+    width: 600px;
+}
+
+
+.scroll {
+   
+    /* Show vertical scrollbar */
+}
+
+.backGround {
+
+    background-image: url(../../assets/background5.jpg);
+    /* background-position: center; */
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-size: 200px 100px; */
+    overflow-y: auto;
+}
+
+
+.imgTest {
+    /* background-color:#f4f6f4 ; */
+    background-image: url('../../assets/background3.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-size: 200px 100px; */
+    overflow-y: auto;
+}
+
+
+
+
+.uneeqAvatar {
+    margin-top: 0px;
+
+}
+
+.uneeqAv {
+    /* margin-top: -40px; */
+    position: fixed;
+    bottom: -4px;
+}
+
+.speaking-lady {
+    display: block;
+    border: 0px solid #fff;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    background-color: white;
+    width: 600px;
+    height: 335px;
+    border-radius: 1px;
+    overflow: hidden;
+
+}
+
+
+.fixed-mic {
+    /* position: absolute; */
+   
+}
+
+.fixedText {
+    position: fixed;
+  
+   
+}
+
+video {
+    /* override other styles to make responsive */
+    width: 100% !important;
+    height: auto !important;
+}
+
+.showI {
+    display: none;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 160px;
+    left: 20px;
+    z-index: 100;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  
+
+
+.full_screen {
+    /* margin-top: -78px; */
+    margin-top: -70px;
+    width: 100% !important;
+    height: 100% !important;
+    right: 0px;
+    z-index: 2000;
+}
+
+.speakingsss {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url(../../assets/error_1.png);
+    right: 18px;
+    cursor: pointer;
+    position: fixed;
+    margin: 20px;
+    z-index: 600;
+}
+
+
+.play {
+    width: 500px;
+}
+
+
+.yyy{
+    margin-top: 24px;
+}
+
+
+/* 
+// ipad mini */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .yyy {
+        margin-top: 400px;
+    }
+
+    .fixedText {
+        position: fixed;
+
+    }
+
+
+
+    .uneeqAvatar {
+        margin-top: 20px;
+
+    }
+
+    .play {
+        width: 600px;
+    }
+
+
+    .speaking-lady {
+        display: block;
+        border: 0px solid #fff;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        background-color: white;
+        width: 600px;
+        height: 350px;
+
+        border-radius: 1px;
+    }
+
+
+
+}
+
+/* // ipad air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+    .yyy {
+        margin-top: 400px;
+    }
+
+    .fixedText {
+        position: relative;
+        left: 135px;
+        width: 600px;
+    }
+
+
+
+    .uneeqAvatar {
+        margin-top: 20px;
+
+    }
+
+    .play {
+        width: 600px;
+    }
+
+
+    .speaking-lady {
+        display: block;
+        border: 0px solid #fff;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        background-color: white;
+        width: 600px;
+        height: 350px;
+
+        border-radius: 1px;
+    }
+
+
+
+}
+
+
+/* @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+        .fixed-mic{
+            margin-top: 400px;
+            margin-right: 100px;
+        }
+    } */
+
+/* 
+    // flod phone */
+@media all and (device-width: 768px) and (device-height: 1076px) and (orientation:portrait) {
+
+    .yyy {
+
+        margin-top: 420px;
+        /* right: 30px; */
+        left: 100px;
+        right: 20px;
+    }
+
+    .fixed-mic {
+        position: fixed;
+
+        z-index: 200;
+    }
+
+    .fixedText {
+        position: relative;
+        left: 100px;
+        right: 20px;
+        width: 500px;
+
+    }
+
+
+
+    .play {
+        width: 500px;
+    }
+
+
+
+    .uneeqAvatar {
+        margin-top: 22px;
+
+    }
+
+
+    .speaking-lady {
+        display: block;
+        border: 0px solid #fff;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        background-color: white;
+        width: 500px;
+        height: 300px;
+
+        border-radius: 1px;
+    }
+
+
+}
+
+
+
+ /* flod phone 2 */
+@media all and (device-width: 884px) and (device-height: 1104px) and (orientation:portrait) {
+
+    .yyy {
+
+        margin-top: 420px;
+        /* right: 30px; */
+        left: 150px;
+        /* right: 20px; */
+    }
+
+    .fixed-mic {
+        position: fixed;
+
+        z-index: 200;
+    }
+
+    .fixedText {
+        position: relative;
+        left: 150px;
+        /* right: 20px; */
+        width: 550px;
+
+    }
+
+
+
+    .play {
+        width: 550px;
+    }
+
+
+
+    .uneeqAvatar {
+        margin-top: 22px;
+
+    }
+
+
+    .speaking-lady {
+        display: block;
+        border: 0px solid #fff;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        background-color: white;
+        width: 550px;
+        height: 300px;
+
+        border-radius: 1px;
+    }
+
+
+}
+
+
+/* @media all and (device-width: 683px) and (device-height: 832px) and (orientation:portrait) { */
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+    .yyy {
+
+        margin-top: 10px;
+        /* right: 30px; */
+      
+    }
+
+    .fixed-mic {
+        position: fixed;
+       
+        z-index: 200;
+    }
+
+    .fixedText {
+        position: relative;
+       
+        width: 310px;
+
+    }
+
+
+
+    .play {
+        width: 310px;
+    }
+
+
+
+    .uneeqAvatar {
+        margin-top: 49px;
+
+    }
+
+
+    .speaking-lady {
+        display: block;
+        border: 0px solid #fff;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        background-color: white;
+        width: 315px;
+        height: 230px;
+
+        border-radius: 1px;
+    }
+
+
+}
