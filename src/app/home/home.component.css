@@ -21,9 +21,10 @@
 
 
 .imgTest {
-    background-color:#FF9400;
+    /* background-color:#FF9400; */
     /* background-color:#f4f6f4 ; */
-    /* background-image: url('../../assets/background3.jpg'); */
+     background-color:#00b140 ;
+    /* background-image: url('../../assets/8.jpg'); */
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
